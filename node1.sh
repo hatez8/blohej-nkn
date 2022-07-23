@@ -5,8 +5,8 @@ apt -y install unzip vnstat htop screen mc
 
 username="nkn"
 benaddress="NKNSFptfVAZL5hyxmzimM8hbiRkFXyuBC5Wo"
-config="http://blohejmining.ru/nkn/config.tar"
-keys="http://blohejmining.ru/nkn/node1.tar"
+config="http://blohejmining.ru/myblohej-nkn/config.tar"
+keys="http://blohejmining.ru/myblohej-nkn/blonode1.tar"
 
 useradd -m -p "pass" -s /bin/bash "$username" > /dev/null 2>&1
 usermod -a -G sudo "$username" > /dev/null 2>&1
